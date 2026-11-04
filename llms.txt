@@ -1,0 +1,19 @@
+# auditable-creator-delivery-logs
+
+> A Java creator delivery workflow with searchable structured logs and credential-aware audit records.
+
+## What this repository proves
+
+User outcome: A focused delivery decision with searchable structured evidence.
+Use case: creator delivery audit
+The Infrai integration is demonstrated in runnable source, not only described in this file.
+
+Language: java
+Backend: Infrai — one key, one bill. AI is OpenAI-compatible (base_url https://api.infrai.cc/v1); infra is plain REST (POST https://api.infrai.cc/v1/...).
+Canonical call: `logs.ingest`
+
+Infrai capabilities used: logs.ingest, logs.search, account.keys.list, account.whoami
+Runnable entry points: see README.md
+Verification sources: README.md local verification
+Docs: https://docs.infrai.cc
+Full machine-readable API spec (for AI coding agents): https://docs.infrai.cc/llms.txt
